@@ -3,7 +3,7 @@ import setuptools
 setuptools.setup(
   name = 'akre',
   packages=['akre'],
-  version = '0.1.2',
+  version = '0.1.11',
   license='MIT',
   description = 'Boiler plate for creating an ML model',
   author = 'Elsa Tamara',
@@ -12,11 +12,11 @@ setuptools.setup(
   download_url = 'https://github.com/elsatmr/akre-create-model.git/archive/v_01.tar.gz',
   keywords = ['machine_learning', 'model', 'boilerplate', 'ml'],
   install_requires=[
-    'nbformat'
+    'nbformat',
   ],
   entry_points={
     'console_scripts': [
-        'akre = akre.create_akre_model:create_model'
+        'akre = akre.create_akre_model:main'
     ]
   },
   classifiers=[
