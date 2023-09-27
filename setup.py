@@ -16,7 +16,7 @@ setuptools.setup(
   ],
   entry_points={
     'console_scripts': [
-        'akre = akre.create_akre_model:main'
+        'akre = akre.create_akre_model:create_model'
     ]
   },
   classifiers=[
