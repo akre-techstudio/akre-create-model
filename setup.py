@@ -3,7 +3,7 @@ import setuptools
 setuptools.setup(
   name = 'akre',
   packages=['akre'],
-  version = '0.1.1',
+  version = '0.1.2',
   license='MIT',
   description = 'Boiler plate for creating an ML model',
   author = 'Elsa Tamara',
